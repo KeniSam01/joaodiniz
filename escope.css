@@ -13,9 +13,9 @@
     bottom: 0; /* Coloca o elemento na parte inferior */
     left: 0; /* Alinha o elemento à esquerda */
     width: 100%; /* Faz o elemento ocupar toda a largura */
-    background-color: #ff9100; /* Cor de fundo */
-    text-align: center; /* Centraliza o texto */
-    padding: 10px; /* Adiciona um espaçamento interno */
+    background-color: #ff9100; 
+    text-align: center; 
+    padding: 10px; 
     font-weight:bold;
 }
 
@@ -23,7 +23,7 @@ body{
 
     font-family: "Alan Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight:<weight>;
+    font-weight:weight;
     font-style:normal;
 }
 
