@@ -1,18 +1,37 @@
+
 .imagem-centralizada {
-  display: block;
-  margin: 0 auto;
-  width: 15%;
+    display: block;
+    margin: auto;
+    position: center;
+    width: 15%;
 }
 .texto-principal {
     text-align:center;
 
 }
 
+.textos{
+    display: flex;
+    gap: 10px;
+
+}
+
+.text-1 {
+    display: inline-block;
+    text-align: left;
+    background-color: #ffffff;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
 .texto-rodape {
-    position: fixed; /* Fixa o elemento em relação à janela do navegador */
-    bottom: 0; /* Coloca o elemento na parte inferior */
-    left: 0; /* Alinha o elemento à esquerda */
-    width: 100%; /* Faz o elemento ocupar toda a largura */
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
     background-color: #81807d; 
     text-align: center; 
     padding: 10px; 
@@ -20,7 +39,7 @@
 }
 
 body{
-    background-color: rgb(185, 180, 179);
+    background-color: rgb(218, 215, 214);
     font-family: "Alan Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:weight;
@@ -30,8 +49,8 @@ body{
 .container-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  place-items: center; /* Centraliza itens horizontal e verticalmente */
-  gap: 20px; /* Adiciona um espaço entre os itens */
+  place-items: center; 
+  gap: 20px; 
 
 }
 
