@@ -1,9 +1,6 @@
 
-.imagem-centralizada {
-    display: block;
-    margin: auto;
+.img-1 {
     position: center;
-    width: 15%;
 }
 .texto-principal {
     text-align:center;
